@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8fcdf0b.css",
+    "main.js": "/static/js/main.baa1e0c3.js",
+    "static/js/787.ae43b5ad.chunk.js": "/static/js/787.ae43b5ad.chunk.js",
+    "static/media/roadmap.png": "/static/media/roadmap.617d909f7be945ffd3f1.png",
+    "static/media/hero-bg.png": "/static/media/hero-bg.64da119a9dd0f3e12e94.png",
+    "static/media/roadmap3.png": "/static/media/roadmap3.3f8efbbd59c20f247a81.png",
+    "static/media/roadmap4.png": "/static/media/roadmap4.af296860b4bc66811cd4.png",
+    "static/media/collection1.png": "/static/media/collection1.2843c3116227debade62.png",
+    "static/media/collection6.png": "/static/media/collection6.2843c3116227debade62.png",
+    "static/media/roadmap6.png": "/static/media/roadmap6.d3a75fad0b69500695e9.png",
+    "static/media/collection2.png": "/static/media/collection2.db440d46074cee1a6edc.png",
+    "static/media/roadmap1.png": "/static/media/roadmap1.5002003dfb9d2ec03937.png",
+    "static/media/roadmap2.png": "/static/media/roadmap2.2fd6566611c7f64623a7.png",
+    "static/media/collection3.png": "/static/media/collection3.38e49ac6569364a848ed.png",
+    "static/media/collection5.png": "/static/media/collection5.848788ee1140a9f16063.png",
+    "static/media/collection4.png": "/static/media/collection4.f8f7826eb4ad7ce3914d.png",
+    "static/media/twitch.svg": "/static/media/twitch.1784059d04f1e7dad3a5.svg",
+    "static/media/about-img2.png": "/static/media/about-img2.9ed18c75ccb7969d902d.png",
+    "static/media/about-img1.png": "/static/media/about-img1.d4c796bd001729e9f764.png",
+    "static/media/mint.svg": "/static/media/mint.53a227b52872fd8750e9.svg",
+    "static/media/team2.png": "/static/media/team2.120189a89d89542a59a9.png",
+    "static/media/founder2.png": "/static/media/founder2.f7093172b20653aec937.png",
+    "static/media/team3.png": "/static/media/team3.1221918c73eb646c0b49.png",
+    "static/media/moderator1.png": "/static/media/moderator1.34fe15f892d69c3cb903.png",
+    "static/media/roadmap5.svg": "/static/media/roadmap5.352cc3f12aea530332c0765ccc8343cf.svg",
+    "static/media/discord.svg": "/static/media/discord.83a79cd2d6f4eb85a7c3.svg",
+    "static/media/twitter.svg": "/static/media/twitter.2bf91c0b49b27cfebd3a.svg",
+    "index.html": "/index.html",
+    "main.f8fcdf0b.css.map": "/static/css/main.f8fcdf0b.css.map",
+    "main.baa1e0c3.js.map": "/static/js/main.baa1e0c3.js.map",
+    "787.ae43b5ad.chunk.js.map": "/static/js/787.ae43b5ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8fcdf0b.css",
+    "static/js/main.baa1e0c3.js"
+  ]
+}
