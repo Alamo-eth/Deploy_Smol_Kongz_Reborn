@@ -3,7 +3,7 @@ import roadmap1 from '../images/roadmap1.png';
 import roadmap2 from '../images/roadmap2.png';
 import roadmap3 from '../images/roadmap3.png';
 import roadmap4 from '../images/roadmap4.png';
-import roadmap5 from '../images/roadmap5.svg';
+import roadmap5 from '../images/roadmap5.png';
 import roadmap6 from '../images/roadmap6.png';
 
 const Roadmap = () => {

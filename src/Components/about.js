@@ -51,7 +51,7 @@ const About = () => {
               the Smol Kongz NFT team will provide clear and actionable goals to
               empower the community in its knowledge and success.
             </p>
-            <a className="discord-btn" href="#">Join our discord</a>
+            <a className="discord-btn" href="https://www.discord.gg/smolkongz">Join our discord</a>
           </div>
         </div>
       </div>
