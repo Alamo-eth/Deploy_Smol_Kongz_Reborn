@@ -23,3 +23,8 @@ function App() {
 }
 
 export default App;
+
+// to redeploy,
+// git add .
+// git commit -m 'xxx'
+// git push
