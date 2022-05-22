@@ -50,7 +50,7 @@ const teams = [
   },
   {
     name: "Fun Pilled",
-    title: "Pixel Artist/ Merch Guru",
+    title: "Pixel Artist / Merch Guru",
     image: team2,
     link: "https://twitter.com/FunPilled"
   },

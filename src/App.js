@@ -7,11 +7,13 @@ import Questions from './Components/questions';
 import Teams from './Components/teams';
 import Join from './Components/join';
 import Roadmap from "./Components/roadmap";
+import Factions from "./Components/factions";
 
 function App() {
 	return (
 		<>
 			<Hero />
+			{/* <Factions/> */}
 			<About />
 			<Roadmap />
 			<Collection />

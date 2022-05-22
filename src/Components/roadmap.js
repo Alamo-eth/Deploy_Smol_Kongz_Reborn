@@ -29,12 +29,12 @@ const Roadmap = () => {
           </div>
           <div className="roadmap-box">
             <img src={roadmap4} alt="roadmap" />
-            <h4>Reinforcements-Giveaways</h4>
+            <h4>Reinforcements - Giveaways</h4>
             <p>Rewards distributed to our holders and community.</p>
           </div>
           <div className="roadmap-box">
             <img src={roadmap5} alt="roadmap" />
-            <h4>SmolTank-Community Wallet and Projects</h4>
+            <h4>SmolTank - Community Wallet and Projects</h4>
             <p>50eth set to invest back into the community and ideas created by our holders</p>
           </div>
           <div className="roadmap-box">

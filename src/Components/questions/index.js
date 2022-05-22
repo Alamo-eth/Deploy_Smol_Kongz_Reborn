@@ -5,7 +5,7 @@ const questions = [
   {
     id: 1,
     question: 'What is Smol Kongz Reborn?',
-    answer: 'SKR is a community driven project that inhabits Smolverse, and will live in Arbitrum.',
+    answer: 'SKR is a community driven project that inhabits Smolverse, and will live on Arbitrum.',
   },
   {
     id: 2,
@@ -15,28 +15,34 @@ const questions = [
   {
     id: 3,
     question: 'What is the Supply?',
-    answer: "Our Genesis collection will have 1111 different Kongz. And our Faction collection will have a supply of 8888 different Kongz. It's just the beginning.",
+    answer: "Our Genesis collection will have 1111 different Kongz. And our Faction collection will have a supply of 8888 different Kongz. This is just the beginning.",
   },
   {
     id: 4,
     question: 'Is there a mintlist?',
-    answer: "Yes. There's a mintlist. We're choosing the best members from our community to be able to mint for free SKR Genesis Collection. For the OG role, it will be handpicked. Our team will have these members as soon as they can, to spread the word of Smol Kongz.",
+    answer: "Yes. There's A Mintlist. We're Choosing The Most Prominent Members From Our Community To Be Able To Mint The SKR Genesis Collection for free. For The OG Role, It Will Be Handpicked. Our Team Will Choose These Members As Soon As They Can, Their mission: To Spread The Word Of Smol Kongz.",
   },
   {
     id: 5,
-    question: 'How can I get Konzlist/Mintlist/whitelist?',
+    question: 'How can I get Kongzlist/Mintlist/whitelist?',
     answer: 'The best way to get kongzlist is to be a part of this community. We discourage the idea of “grinding” and like to promote a more organic way to get whitelisted. For more information check out the “how to wl” channel on our discord!',
   },
   {
     id: 6,
     question: 'What Is The Price Of The Nfts?',
-    answer: 'Our genesis mint will be free and consist of1111 smol kongz. The genesis will also be whitelisted to mint factions at a price of 0.0275 AETH. All remaining Factions will be sold at a price of .055 AETH',
+    answer: 'Our genesis mint will be free and consist of 1111 smol kongz. The genesis will also be whitelisted to mint factions at a price of 0.0275 AETH. All remaining Factions will be sold at a price of 0.055 AETH',
   },
   {
     id: 7,
     question: 'Where can I learn more about Smol Kongz Reborn?',
     answer: 'Great question, if you have any additional questions feel free to ask in our discord server as we have thousands of helpful and kind kongz eager to help. If you have a more private request or question feel free to open a support ticket within our discord server!',
   },
+  // to add additional questions
+  // {
+  //   id: 8,
+  //   question: 'Where can I learn more about Smol Kongz Reborn?',
+  //   answer: 'Great question, if you have any additional questions feel free to ask in our discord server as we have thousands of helpful and kind kongz eager to help. If you have a more private request or question feel free to open a support ticket within our discord server!',
+  // },
 ]
 
 const Questions = () => {

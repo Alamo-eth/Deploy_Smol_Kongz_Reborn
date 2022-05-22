@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="content">
             <p>
-              At Smol Kongz NFT, we recognize the adversity we as a community
+              At Smol Kongz Reborn, we recognize the adversity we as a community
               have faced within the NFT Space. What helps us wake up the next
               day, is the chance to re-build and re-focus.
             </p>
@@ -24,11 +24,11 @@ const About = () => {
               physical and mental health experts, we recognize that all of us
               can grow when we bring a diverse perspective to the table. By
               creating a holistic community of people who interact with one
-              another, and not just for the promise of a reward -Smol Kongz’s
-              focus is on creating a lasting community.
+              another, and not just for the promise of a reward, Smol Kongz
+              Reborn focus is on creating a lasting community.
             </p>
             <p>
-              In the future, your Smol Kongz NFT will not only be your key to
+              In the future, your Smol Kongz Reborn will not only be your key to
               the community, but it will be evidence that you were a pioneer in
               the field. The success reaped by dedicated members of our
               community will continue to draw interest and growth as we continue
@@ -44,12 +44,12 @@ const About = () => {
               adversity.
             </p>
             <p>
-              Smol Kongz has always been about establishing community, when all
+              Smol Kongz Reborn has always been about establishing community, when all
               seems lost. When experiencing chaos, having a safe place to start,
               rebuild, and grow, in what many might consider to be a chaotic
               space, is an invaluable resource. With a focus on transparency,
-              the Smol Kongz NFT team will provide clear and actionable goals to
-              empower the community in its knowledge and success.
+              the Smol Kongz Reborn team will provide clear and actionable goals to
+              empower the community in it's knowledge and success.
             </p>
             <a className="discord-btn" href="https://www.discord.gg/smolkongz">Join our discord</a>
           </div>
