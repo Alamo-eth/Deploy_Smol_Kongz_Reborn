@@ -65,7 +65,7 @@ const teams = [
     name: "Greedisgood",
     title: "Artist",
     image: team4,
-    link: "https://twitter.com/Ta3han"
+    link: "https://twitter.com/brix_crypto"
   }
 ]
 
