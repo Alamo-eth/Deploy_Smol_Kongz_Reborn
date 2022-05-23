@@ -8,7 +8,8 @@ import founder3 from '../images/founder3.png';
 import founder4 from '../images/founder4.png';
 import team1 from '../images/team1.png';
 import team2 from '../images/team2.png';
-import team3 from '../images/team3.png';
+import team3 from '../images/team3.jpg';
+import team4 from '../images/team4.png';
 import moderator1 from '../images/moderator1.png';
 import moderator2 from '../images/moderator2.png';
 import moderator3 from '../images/moderator3.png';
@@ -58,6 +59,12 @@ const teams = [
     name: "Taehan",
     title: "Lil Kong - Rapper/Songwriter ",
     image: team3,
+    link: "https://twitter.com/Ta3han"
+  },
+  {
+    name: "Greedisgood",
+    title: "Artist",
+    image: team4,
     link: "https://twitter.com/Ta3han"
   }
 ]

@@ -15,8 +15,9 @@ const Hero = () => {
         </ul>
         <div className="hero-content">
           <h1>Smol Kongz Reborn</h1>
-          <p>Welcome to Kongonia</p>
+          <p1>Welcome to Kongonia</p1>
           <div className="mint-box">
+            <p>Coming June 17th</p>
             <img src={head1} alt="head" />
             <p>Smol Kongz Reborn</p>
             <button className='mint-btn'>Coming Soon</button>

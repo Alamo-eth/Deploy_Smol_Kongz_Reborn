@@ -10,7 +10,7 @@ const questions = [
   {
     id: 2,
     question: 'When is mint?',
-    answer: 'Our Genesis collection will be available to mint June 10th. Factions mint date will be announced soon...',
+    answer: 'Our Genesis collection will be available to mint June 17th. Factions mint date will be announced soon...',
   },
   {
     id: 3,

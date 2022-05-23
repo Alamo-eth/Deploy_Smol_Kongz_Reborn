@@ -11,7 +11,7 @@ const Collection = () => {
   return (
     <div className='collection-section'>
       <div className="container">
-        <h2>Collection</h2>
+        <h2>Genesis</h2>
         <div className="collection-wrapper">
           <div className="collection-item">
             <img src={img1} alt="collection" />
