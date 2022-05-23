@@ -4,7 +4,7 @@
 import React from "react";
 import founder1 from '../images/founder1.png';
 import founder2 from '../images/founder2.png';
-import founder3 from '../images/founder3.png';
+import founder3 from '../images/founder3.jpg';
 import founder4 from '../images/founder4.png';
 import team1 from '../images/team1.png';
 import team2 from '../images/team2.png';
@@ -14,6 +14,7 @@ import moderator1 from '../images/moderator1.png';
 import moderator2 from '../images/moderator2.png';
 import moderator3 from '../images/moderator3.png';
 import moderator4 from '../images/moderator4.png';
+import moderator5 from '../images/moderator5.png';
 
 const founders = [
   {
@@ -36,7 +37,7 @@ const founders = [
   },
   {
     name: "Smol Joe",
-    title: "Artist",
+    title: "Genesis Artist",
     image: founder4,
     link: "https://twitter.com/ItsJoeBear"
   },
@@ -89,8 +90,42 @@ const moderators = [
     name: "Subversieve",
     image: moderator4,
     link: "https://twitter.com/subversieve"
+  },
+  {
+    name: "Owrange",
+    image: moderator5,
+    link: "https://twitter.com/Owrang33"
   }
 ]
+
+
+// const moderators2 = [
+//   {
+//     name: "Heady lele",
+//     image: moderator1,
+//     link: "https://twitter.com/Heady_Lele"
+//   },
+//   {
+//     name: "Sake",
+//     image: moderator2,
+//     link: "https://twitter.com/stephen_sake"
+//   },
+//   {
+//     name: "Uguma",
+//     image: moderator3,
+//     link: "https://twitter.com/EmmanuelUguma"
+//   },
+//   {
+//     name: "Subversieve",
+//     image: moderator4,
+//     link: "https://twitter.com/subversieve"
+//   },
+//   {
+//     name: "Owrange",
+//     image: moderator4,
+//     link: "https://twitter.com/subversieve"
+//   }
+// ]
 
 const TeamBox = ({ name, title, image, link }) => {
   return (
@@ -108,7 +143,7 @@ const Teams = () => {
     <>
       <div className="teams-section">
         <div className="container">
-          <h2>Founders</h2>
+          <h2>Founder Kongz</h2>
           <div className="team-wrapper">
             {founders.map((founder, i) => (
               <TeamBox key={i} {...founder} />
@@ -118,7 +153,7 @@ const Teams = () => {
       </div>
       <div className="teams-section">
       <div className="container">
-        <h2>Team</h2>
+        <h2>Team Kongz</h2>
         <div className="team-wrapper">
           {teams.map((team, i) => (
             <TeamBox key={i} {...team} />
@@ -128,11 +163,21 @@ const Teams = () => {
     </div>
     <div className="teams-section">
       <div className="container">
-        <h2>Moderators</h2>
+        <h2>Smolerators</h2>
         <div className="team-wrapper">
           {moderators.map((moderator, i) => (
             <TeamBox key={i} {...moderator} />
           ))}
+          {/* </div>
+        </div>
+      </div>
+      <div className="teams-section">
+        <div className="container">
+          <h2>Smolerators</h2>
+          <div className="team-wrapper">
+            {moderators.map((moderators2, i) => (
+              <TeamBox key={i} {...moderators2} />
+            ))} */}
         </div>
       </div>
     </div>
