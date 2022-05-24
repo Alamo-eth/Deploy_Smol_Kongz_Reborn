@@ -5,7 +5,7 @@ const questions = [
   {
     id: 1,
     question: 'What is Smol Kongz Reborn?',
-    answer: 'SKR is a community driven project that inhabits Smolverse, and will live on Arbitrum.',
+    answer: 'SKR is an NFT project that inhabits Smolverse, and will live on Arbitrum. Our community is built around 2 core pillars Genesis and Factions. Genesis being an homage to the rug that united the founders; Factions being born from the ashes of the rug.',
   },
   {
     id: 2,

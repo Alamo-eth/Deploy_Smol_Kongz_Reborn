@@ -10,6 +10,7 @@ const Hero = () => {
           <li><a target='_blank' href="https://twitter.com/SmolKongzNFT"><span className="twitter-icon"></span></a></li>
           <li><a target='_blank' href="https://www.twitch.tv/smolkongz"><span className="twitch-icon"></span></a></li>
           <li><a target='_blank' href="https://www.discord.gg/smolkongz"><span className="discord-icon"></span></a></li>
+          <li><a target='_blank' href="https://www.youtube.com"><span className="youtube-icon"></span></a></li>
 {/* to add another buttom make sure edit the one below and make sure to edit in join.js too */}
           {/* <li><a target='_blank' href="https://www.discord.gg/smolkongz"><span className="discord-icon"></span></a></li> */}
         </ul>

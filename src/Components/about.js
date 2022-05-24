@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about-section">
       <div className="container">
-        <h2>About us</h2>
+        <h2>About Smol Kongz Reborn</h2>
         <div className="about-wrapper">
           <div className="images">
             <img src={img1} alt="about" />
@@ -51,7 +51,7 @@ const About = () => {
               the Smol Kongz Reborn team will provide clear and actionable goals to
               empower the community in it's knowledge and success.
             </p>
-            <a className="discord-btn" href="https://www.discord.gg/smolkongz">Join our discord</a>
+            <a className="discord-btn" href="https://www.discord.gg/smolkongz">Join the Kongmunity</a>
           </div>
         </div>
       </div>
