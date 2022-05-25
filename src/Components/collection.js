@@ -4,7 +4,7 @@ import img2 from '../images/collection2.png';
 import img3 from '../images/collection3.png';
 import img4 from '../images/collection4.png';
 import img5 from '../images/collection5.png';
-import img6 from '../images/collection6.png';
+import img6 from '../images/collection6.jpg';
 //import img7 from '../images/collection7.png';//
 
 const Collection = () => {
