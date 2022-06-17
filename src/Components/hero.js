@@ -53,7 +53,7 @@ const Hero = () => {
 						<h3>Genesis</h3>
 						<h3>Collection</h3>
 						<button className="mint-btn">
-							{<Link to={'/mint'}>MINTING NOW!!</Link>}
+// 							{<Link to={'/mint'}>MINTING NOW!!</Link>}
 						</button>
 					</div>
 				</div>
