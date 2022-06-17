@@ -1,16 +1,21 @@
-.hero-section{
-	background: linear-gradient(to right, rgba(27, 51, 51, 0.6), rgba(27, 51, 51, 0.6)), url('./images/hero-bg.png') center no-repeat;
+.hero-section {
+	background: linear-gradient(
+			to right,
+			rgba(27, 51, 51, 0.6),
+			rgba(27, 51, 51, 0.6)
+		),
+		url('./images/hero-bg.png') center no-repeat;
 	background-size: cover;
 	padding: 40px 0 50px 0;
 }
 
-.hero-section .container{
+.hero-section .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.social-btns{
+.social-btns {
 	list-style: none;
 	display: flex;
 	align-items: center;
@@ -18,7 +23,7 @@
 	margin: -15px;
 }
 
-.social-btns li a{
+.social-btns li a {
 	display: inline-block;
 	margin: 15px;
 	border: 1px solid #ffffff;
@@ -30,15 +35,15 @@
 	justify-content: center;
 }
 
-.social-btns li a > *{
+.social-btns li a > * {
 	transition: 0.3s all;
 }
 
-.social-btns li a:hover > *{
+.social-btns li a:hover > * {
 	transform: scale(1.2);
 }
 
-.twitter-icon{
+.twitter-icon {
 	display: block;
 	height: 16px;
 	width: 19px;
@@ -46,7 +51,7 @@
 	background-size: contain;
 }
 
-.twitch-icon{
+.twitch-icon {
 	display: block;
 	height: 19px;
 	width: 17px;
@@ -54,7 +59,7 @@
 	background-size: contain;
 }
 
-.discord-icon{
+.discord-icon {
 	display: block;
 	height: 15px;
 	width: 20px;
@@ -62,7 +67,15 @@
 	background-size: contain;
 }
 
-.youtube-icon{
+.tofu-icon {
+	display: block;
+	height: 30px;
+	width: 24px;
+	background: url('./images/tofu-icon.png') center no-repeat;
+	background-size: contain;
+}
+
+.youtube-icon {
 	display: block;
 	height: 20px;
 	width: 20px;
@@ -70,7 +83,7 @@
 	background-size: contain;
 }
 
-.hero-content{
+.hero-content {
 	text-align: center;
 	margin-top: 100px;
 	display: flex;
@@ -78,20 +91,25 @@
 	align-items: center;
 }
 
-.hero-content h1 + p{
+.hero-content h1 + p {
 	margin-top: 12px;
 	font-size: 32px;
 }
 
-.mint-box{
-	background-color: #52704C;
+.mint-box {
+	background-color: #52704c;
 	padding: 46px 32px;
 	max-width: 364px;
 	margin-top: 44px;
 }
 
-.mint-box .mint-btn{
-	background: linear-gradient(180deg, rgba(131, 117, 117, 0.2) 0%, rgba(77, 67, 67, 0) 100%), #8D5624;
+.mint-box .mint-btn {
+	background: linear-gradient(
+			180deg,
+			rgba(131, 117, 117, 0.2) 0%,
+			rgba(77, 67, 67, 0) 100%
+		),
+		#8d5624;
 	border-radius: 5px;
 	outline: none;
 	font-size: 20px;
@@ -108,8 +126,13 @@
 	transition: 0.3s all;
 }
 
-.mint-box .mint-btn::before{
-	content: "";
+.mint-box .mint-btn a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.mint-box .mint-btn::before {
+	content: '';
 	background: url('./images/mint.svg') center no-repeat;
 	background-size: contain;
 	height: 28px;
@@ -121,51 +144,56 @@
 	margin-bottom: -5px;
 }
 
-.mint-box .mint-btn:hover{
+.mint-box .mint-btn:hover {
 	transform: scale(1.1);
 }
 
-.about-section{
-	background-color: #1B3333;
+.about-section {
+	background-color: #1b3333;
 	padding: 140px 0;
 }
 
-.about-section h2{
+.about-section h2 {
 	text-align: center;
 }
 
-.about-wrapper{
+.about-wrapper {
 	margin-top: 48px;
 	display: flex;
 }
 
-.about-wrapper .content{
+.about-wrapper .content {
 	width: 49%;
 }
 
-.about-wrapper .images{
+.about-wrapper .images {
 	width: calc(51% - 60px);
 	margin-right: 60px;
 }
 
-.about-wrapper .images img{
+.about-wrapper .images img {
 	width: 100%;
 }
 
-.about-wrapper .images img:not(:first-child){
+.about-wrapper .images img:not(:first-child) {
 	margin-top: 24px;
 }
 
-.about-wrapper .content p:not(:first-child){
+.about-wrapper .content p:not(:first-child) {
 	margin-top: 16px;
 }
 
-.about-wrapper .content p:not(:first-child){
+.about-wrapper .content p:not(:first-child) {
 	line-height: 32px;
 }
 
-.discord-btn{
-	background: linear-gradient(180deg, rgba(131, 117, 117, 0.2) 0%, rgba(77, 67, 67, 0) 100%), #8D5624;
+.discord-btn {
+	background: linear-gradient(
+			180deg,
+			rgba(131, 117, 117, 0.2) 0%,
+			rgba(77, 67, 67, 0) 100%
+		),
+		#8d5624;
 	border-radius: 5px;
 	outline: none;
 	font-size: 20px;
@@ -183,44 +211,44 @@
 	max-width: max-content;
 }
 
-.discord-btn::before{
+.discord-btn::before {
 	height: 15px;
 	width: 20px;
-	content: "";
+	content: '';
 	display: block;
 	background: url('./images/discord.svg') center no-repeat;
 	background-size: contain;
 	margin-right: 10px;
 }
 
-.discord-btn:hover{
+.discord-btn:hover {
 	transform: scale(1.1);
 }
 
-.collection-section{
-	background-color: #1B3333;
+.collection-section {
+	background-color: #1b3333;
 	padding: 140px 0;
 }
 
-.collection-section h2{
+.collection-section h2 {
 	text-align: center;
 }
 
-.collection-wrapper{
+.collection-wrapper {
 	margin-top: 56px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 30px;
 }
 
-.collection-item{
+.collection-item {
 	border-radius: 10px;
 	overflow: hidden;
 	position: relative;
 	padding-bottom: 110%;
 }
 
-.collection-item img{
+.collection-item img {
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -229,57 +257,57 @@
 	top: 0;
 }
 
-.questions-section{
-	background: #36534A;
+.questions-section {
+	background: #36534a;
 	padding: 140px 0 70px 0;
 }
 
-.questions-section h2{
+.questions-section h2 {
 	text-align: center;
 }
 
-.questions-section .questions-wrapper{
+.questions-section .questions-wrapper {
 	margin-top: 56px;
 	counter-reset: counter;
 }
 
-.accordion{
-	background-color: #034C45;
+.accordion {
+	background-color: #034c45;
 	border-radius: 12px;
 	padding: 32px 80px;
 	counter-increment: counter;
 	transition: 0.3s all;
 }
 
-.accordion.active{
+.accordion.active {
 	background: rgba(3, 76, 69, 0.3);
 }
 
-.accordion:not(:first-child){
+.accordion:not(:first-child) {
 	margin-top: 28px;
 }
 
-.accordion-title{
+.accordion-title {
 	position: relative;
 	cursor: pointer;
 }
 
-.accordion-title::after{
+.accordion-title::after {
 	content: counter(counter) '.';
 	position: absolute;
 	left: -40px;
 	top: 0;
-	color: #F1C17A;
+	color: #f1c17a;
 	text-transform: capitalize;
 	font-weight: 400;
 	font-size: 32px;
 }
 
-.accordion-title::before{
-	content: "";
+.accordion-title::before {
+	content: '';
 	height: 0;
 	width: 0;
-	border-top: 10px solid #FFDBAC;
+	border-top: 10px solid #ffdbac;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	position: absolute;
@@ -288,37 +316,37 @@
 	transition: 0.3s all;
 }
 
-.accordion.active .accordion-title::before{
+.accordion.active .accordion-title::before {
 	transform: rotate(180deg);
-	border-top-color: #FFDBAC;
+	border-top-color: #ffdbac;
 }
 
-.accordion-title{
-	color: #F1C17A;
+.accordion-title {
+	color: #f1c17a;
 	text-transform: capitalize;
 	font-weight: 400;
 	font-size: 32px;
 }
 
-.accordion-content{
+.accordion-content {
 	padding-top: 8px;
 	display: none;
 	text-transform: capitalize;
-	color: #FFDBAC;
+	color: #ffdbac;
 	font-weight: 400;
 	font-size: 24px;
 }
 
-.teams-section{
-	background: #36534A;
+.teams-section {
+	background: #36534a;
 	padding: 56px 0 0 0;
 }
 
-.teams-section h2{
+.teams-section h2 {
 	text-align: center;
 }
 
-.team-wrapper{
+.team-wrapper {
 	width: calc(100% + 30px);
 	margin: 41px -15px -15px -15px;
 	display: flex;
@@ -326,13 +354,13 @@
 	justify-content: center;
 }
 
-.team-wrapper .team-box{
+.team-wrapper .team-box {
 	width: calc(25% - 30px);
 	margin: 15px;
 }
 
-.team-box{
-	background: #034C45;
+.team-box {
+	background: #034c45;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: column;
@@ -340,91 +368,96 @@
 	padding: 40px 20px 32px 20px;
 }
 
-.team-box img{
+.team-box img {
 	width: 123px;
 	height: 123px;
 	border-radius: 50%;
 	min-width: 123px;
 }
 
-.team-box h4{
+.team-box h4 {
 	margin-top: 20px;
-	color: #F1C17A;
+	color: #f1c17a;
 	text-transform: capitalize;
 	font-weight: 400;
 	font-size: 24px;
 	text-align: center;
 }
 
-.team-box p{
+.team-box p {
 	margin-top: 8px;
-	color: #B7B7B7;
+	color: #b7b7b7;
 	font-size: 16px;
 	text-transform: capitalize;
 }
 
-.team-box .twitter-btn{
+.team-box .twitter-btn {
 	display: block;
 	margin-top: 32px;
 	height: 40px;
 	width: 40px;
 	border: 1px solid #ffffff;
 	border-radius: 50%;
-	background: #1B3333 url('./images/twitter.svg') center no-repeat;
+	background: #1b3333 url('./images/twitter.svg') center no-repeat;
 	background-size: 20px;
 	transition: 0.3s all;
 }
 
-.team-box .twitter-btn:hover{
+.team-box .twitter-btn:hover {
 	opacity: 0.7;
 }
 
-.join-section{
-	background: #36534A;
+.join-section {
+	background: #36534a;
 	padding: 100px 0 30px 0;
 }
 
-.join-section h2{
+.join-section h2 {
 	text-align: center;
 }
 
-.join-section .social-btns{
+.join-section .social-btns {
 	margin-top: 32px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.join-section .container{
+.join-section .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.roadmap{
+.roadmap {
 	padding: 60px 0 90px 0;
-	background: linear-gradient(to right, rgba(27, 51, 51, 0.8), rgba(27, 51, 51, 0.8)), url('./images/roadmap.png') center no-repeat;
+	background: linear-gradient(
+			to right,
+			rgba(27, 51, 51, 0.8),
+			rgba(27, 51, 51, 0.8)
+		),
+		url('./images/roadmap.png') center no-repeat;
 	background-size: cover;
 }
 
-.roadmap h2{
+.roadmap h2 {
 	text-align: center;
 }
 
-.roadmap-wrapper{
+.roadmap-wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 48px;
 	gap: 70px 100px;
 }
 
-.roadmap-box{
+.roadmap-box {
 	position: relative;
 	padding-top: 84%;
 	padding-left: 10px;
 	text-align: center;
 }
 
-.roadmap-box img{
+.roadmap-box img {
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -432,46 +465,46 @@
 	left: 0;
 }
 
-.roadmap-box h4{
+.roadmap-box h4 {
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 100%;
-	color: #F1C17A;
+	color: #f1c17a;
 }
 
-.roadmap-box p{
+.roadmap-box p {
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 130%;
 	margin-top: 8px;
-	color: #FFDBAC;
+	color: #ffdbac;
 	max-width: 290px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-@media(max-width:1024px){
-	.team-wrapper .team-box{
+@media (max-width: 1024px) {
+	.team-wrapper .team-box {
 		width: calc(33.3333% - 30px);
 	}
 
-	.about-wrapper .images{
+	.about-wrapper .images {
 		width: calc(51% - 30px);
-    margin-right: 30px;
+		margin-right: 30px;
 	}
 
-	.roadmap-wrapper{
+	.roadmap-wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
-@media(max-width:830px){
-	.about-wrapper{
+@media (max-width: 830px) {
+	.about-wrapper {
 		flex-direction: column;
 	}
 
-	.about-wrapper .images{
+	.about-wrapper .images {
 		margin-right: 0;
 		margin-bottom: 30px;
 		width: 100%;
@@ -479,97 +512,97 @@
 		justify-content: space-between;
 	}
 
-	.about-wrapper .images img{
+	.about-wrapper .images img {
 		width: calc(50% - 10px);
 		margin: 0 !important;
 	}
 
-	.about-wrapper .content{
+	.about-wrapper .content {
 		width: 100%;
 	}
 
-	.hero-content{
+	.hero-content {
 		margin-top: 45px;
 	}
 
-	.about-section{
+	.about-section {
 		padding: 60px 0;
 	}
 
-	.collection-section{
+	.collection-section {
 		padding: 60px 0;
 	}
 
-	.questions-section{
+	.questions-section {
 		padding: 60px 0;
 	}
 
-	.teams-section{
+	.teams-section {
 		padding-top: 50px;
 	}
 
-	.join-section{
+	.join-section {
 		padding: 50px 0 30px 0;
 	}
 }
 
-@media(max-width:767px){
-	.team-wrapper .team-box{
+@media (max-width: 767px) {
+	.team-wrapper .team-box {
 		width: calc(50% - 30px);
 	}
 
-	.collection-wrapper{
+	.collection-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.accordion-title{
+	.accordion-title {
 		word-break: break-word;
 	}
 
-	.roadmap-wrapper{
+	.roadmap-wrapper {
 		gap: 20px;
 	}
 }
 
-@media(max-width:467px){
-	.team-wrapper .team-box{
+@media (max-width: 467px) {
+	.team-wrapper .team-box {
 		width: calc(100% - 30px);
 	}
 
-	.collection-wrapper{
+	.collection-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.questions-section{
+	.questions-section {
 		padding-bottom: 0;
 	}
 
-	.accordion{
+	.accordion {
 		padding: 20px 62px;
 	}
 
-	.collection-wrapper{
-		grid-template-columns: repeat(1, 1fr);	
+	.collection-wrapper {
+		grid-template-columns: repeat(1, 1fr);
 	}
 
-	.about-wrapper .images{
+	.about-wrapper .images {
 		flex-wrap: wrap;
 		gap: 20px;
 	}
 
-	.about-wrapper .images img{
+	.about-wrapper .images img {
 		width: 100%;
 	}
 
-	body h1{
+	body h1 {
 		font-size: 50px;
 	}
 
-	body h2{
+	body h2 {
 		font-size: 40px;
 	}
 
-	.roadmap-wrapper{
+	.roadmap-wrapper {
 		grid-template-columns: repeat(1, 1fr);
 		gap: 40px;
 	}

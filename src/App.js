@@ -1,13 +1,15 @@
-import React from "react";
-import "./App.css";
-import About from "./Components/about";
-import Collection from "./Components/collection";
-import Hero from "./Components/hero";
-import Questions from './Components/questions';
-import Teams from './Components/teams';
-import Join from './Components/join';
-import Roadmap from "./Components/roadmap";
-import Factions from "./Components/factions";
+import React from 'react'
+import './App.css'
+import About from './Components/about'
+import Collection from './Components/collection'
+import Hero from './Components/hero'
+import Questions from './Components/questions'
+import Teams from './Components/teams'
+import Join from './Components/join'
+import Roadmap from './Components/roadmap'
+import Factions from './Components/factions'
+import { Buffer } from "buffer/";
+window.Buffer = window.Buffer || Buffer;
 
 function App() {
 	return (
@@ -24,7 +26,7 @@ function App() {
 	)
 }
 
-export default App;
+export default App
 
 // to redeploy,
 // git add .
