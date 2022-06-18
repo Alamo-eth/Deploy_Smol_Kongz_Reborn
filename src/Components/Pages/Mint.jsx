@@ -16,7 +16,7 @@ console.log("Mint")
 				</div>
 				<div className={styles.footer}>
 					{/* <a target="noreferrer" href= "URL HERE" > ADDRESS HERE </a> */}
-					<p>Smol Kongz Reborn Smart Contract</p>
+					<p>0x7c4Ba0fD433D6CCe82F96d671E9CeeE2F16D0D5F</p>
 				</div>
 			</div>
 		</main>
